@@ -16,7 +16,12 @@ def div(a,b):
 
 # todo write tests for the previous functions
  
-def test_add():
+def test_mul():
  assert mul(2, 40) == 80
 
 
+def test_div():
+ assert div(20, 4) == 5
+
+def test_add():
+ assert add(2, 40) == 42
